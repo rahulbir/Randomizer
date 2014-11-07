@@ -45,8 +45,8 @@ var randomizer = (function() {
     var randomizedList = [];
 
     while (orderedList.length != 0) {
-      // Pick a random index from the ordered array
-      var randomIndex = randomNumberBetween(0, orderedList.length)
+      // Pick a random index within the range of the ordered array
+      var randomIndex = randomNumberBetween(0, orderedList.length);
 
       // remove the integer from the ordered array and store its value
       var number = orderedList.splice(randomIndex, 1)[0];
@@ -83,7 +83,7 @@ var randomizer = (function() {
     output += '</td></tr>';
 
     $('.table tbody').html(output);
-  }
+  };
 
   return {
     init: init
