@@ -12,4 +12,4 @@ Tests
 ==========
 You can run the Jasmine Tests here http://rahulbir.github.io/Randomizer/jasmine-tests/SpecRunner.html
 
-OR, if you downloaded the project you can open the ```jasmine-tests/SpecRunner.html``` page in a browser.
+OR, if you downloaded the project you can open the ```jasmine-tests/SpecRunner.html``` page in a browser. To view view the actual unit tests for randomizer.js see ```jasmine-tests/spec/randomizerSpec.js```.
