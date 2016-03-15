@@ -21,8 +21,6 @@ var randomizer = (function() {
 
   /**
    * Creates an array of unique integers ordered from MINRANGE to MAXRANGE
-   *
-   * @note: Complexity is linear O(n)
    */
   var createOrderedList = function() {
     var orderedList = [];
@@ -76,8 +74,6 @@ var randomizer = (function() {
   /**
    * Creates a random integer between min and max numbers
    *
-   * @note: Complexity is constant
-   *
    * @param {Integer} min
    * @param {Integer} max
    */
@@ -87,8 +83,6 @@ var randomizer = (function() {
 
   /**
    * Outputs the results of the randomized array to screen
-   *
-   * @note: Complexity is constant
    *
    * @param {Array} randomizedList
    */
