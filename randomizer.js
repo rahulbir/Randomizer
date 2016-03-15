@@ -37,7 +37,7 @@ var randomizer = (function() {
   /**
    * Takes an ordered array of integers and then randomizes the order.
    *
-   * @note: Complexity is linear O(n)
+   * @note: 
    *        This method takes a list of ordered integers [1, 2, 3] and
    *        picks a random index (ex. 1) between startIndex = 0 and
    *        endIndex = 2. Then it removes that element from the array [1, 3]
